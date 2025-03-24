@@ -87,13 +87,6 @@
     width: 100%;
 }
 
-.boton-ver {
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .seccion-preguntas {
     padding: 80px 64px;
     background-color: #14330F;
@@ -119,14 +112,6 @@
 .pregunta p {
     font-size: 14px;
     color: #d1e7cd;
-}
-
-.dudas {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    align-items: center;
 }
 
 .dudas p {
