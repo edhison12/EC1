@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    background-color: #0d2c13;
+    color: white;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Sora', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado {
+    background-color: #091f0f;
+    padding: 10px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: white;
+    color: #0d2c13;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.818);
+    color: #0d2c13;
+}
+
+.pie-pagina {
+    background-color: #071305;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #9fb8a4;
+}
+
+.enlaces-legales {
+    margin-top: 10px;
+}
+
+.enlaces-legales a {
+    color: #9fb8a4;
+    font-size: 13px;
+    text-decoration: underline;
+    margin: 0 6px;
+}
+
+.enlaces-legales a:hover {
+    color: white;
+}
